@@ -1,0 +1,35 @@
+body {
+    background-color: #000000; /* Latar belakang luar sangat gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.kotak-jam {
+    background-color: #1a233a; /* Warna navy sesuai gambar */
+    padding: 50px 100px;
+    border-radius: 30px;
+    text-align: center;
+    /* Efek cahaya luar (Cyan Glow) */
+    box-shadow: 0 0 25px 8px rgba(95, 9, 255, 0.4);
+    border: 1px solid rgba(153, 0, 255, 0.1);
+}
+
+#tanggal {
+    color: #fcf9f9;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#jam {
+    color: #ffffff; /* Warna cyan cerah */
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    /* Memberikan sedikit cahaya pada teks jam */
+    text-shadow: 0 0 10px rgba(128, 190, 190, 0.3);
+}
